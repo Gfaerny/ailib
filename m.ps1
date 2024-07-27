@@ -1,7 +1,7 @@
 #  Gfaerny
 # # AILIB shell script App that provide standard library
 # # No license
-# #for cpp
+# # for cpp
 
 param ($file)
 
