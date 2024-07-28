@@ -42,7 +42,7 @@
 
 # # statement that depend sstream lib
 
-for  i in 1;
+    for  i in 1;
     do
    
     if grep -q "std::stringbuf" "$file"; then
@@ -100,5 +100,14 @@ for  i in 1;
         sed -i '1i #include <algorithm>' "$file"
         break
      fi
-     
+     done
+
+
+
+
+
+
+
+
+     echo ""
 # # IN PROCESS
