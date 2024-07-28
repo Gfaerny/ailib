@@ -6,18 +6,18 @@
 # what ailib do and what is it ?
 ailib  auto include library for cpp std:x
 
-#example for linux bash 
+# example for linux bash 
 ``` bash
 m.sh example.cpp
 ```
-#example for windows guy
+# example for windows guy
 ``` bash
 ./m.ps1 example.cpp
 ```
 
-#How to install
+# How to install
 
--windows
+- windows
 
 for now you can clone it in you directory and use
 
@@ -29,9 +29,18 @@ git clone https://github.com/Gfaerny/ailib.git
 ./m.ps1 example.cpp
 ```
 
--Linux 
+- Linux 
 you can use installer
 
+```
+git clone https://github.com/Gfaerny/ailib.git
+```
+```
+chmod +x installforlinux.sh
+```
+```
+./installerlinux.sh
+```
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
