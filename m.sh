@@ -52,4 +52,36 @@ for  i in 1;
    
     
     done
+
+# # For vector 's
+
+    for  i in 1;
+    do
+   
+    if grep -q "std::vector" "$file"; then
+        sed -i '1i #include <vector>' "$file"
+        break
+    fi
+    if grep -q "std::hash" "$file"; then
+        sed -i '1i #include <vector>' "$file"
+        break
+    fi
+    if grep -q "std::begin" "$file"; then
+        sed -i '1i #include <vector>' "$file"
+        break
+    fi
+    if grep -q "std::cbegin" "$file"; then
+        sed -i '1i #include <vector>' "$file"
+        break
+    fi
+    if grep -q "std::end" "$file"; then
+        sed -i '1i #include <vector>' "$file"
+        break
+    fi
+    if grep -q "std::cend" "$file"; then
+        sed -i '1i #include <vector>' "$file"
+        break
+    fi
+    
+    done
 # # IN PROCESS
