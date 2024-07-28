@@ -3,6 +3,36 @@
 
 
 
+# what ailib do and what is it ?
+ailib  auto include library for cpp std:x
+
+#example for linux bash 
+``` bash
+m.sh example.cpp
+```
+#example for windows guy
+``` bash
+./m.ps1 example.cpp
+```
+
+#How to install
+
+-windows
+
+for now you can clone it in you directory and use
+
+that mean you need git 
+```
+git clone https://github.com/Gfaerny/ailib.git
+```
+```
+./m.ps1 example.cpp
+```
+
+-Linux 
+you can use installer
+
+
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
