@@ -8,7 +8,7 @@ ailib  auto include library for cpp std:x
 
 # example for linux bash 
 ``` bash
-m.sh example.cpp
+ailib example.cpp
 ```
 # example for windows guy
 ``` bash
