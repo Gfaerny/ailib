@@ -84,4 +84,21 @@ for  i in 1;
     fi
     
     done
+
+# # for algorithm 
+     for  i in 1;
+     do
+     if grep -q "std::min" "$file"; then
+        sed -i '1i #include <algorithm>' "$file"
+        break
+     fi
+     if grep -q "std::max" "$file"; then
+        sed -i '1i #include <algorithm>' "$file"
+        break
+     fi
+     if grep -q "std::sort" "$file"; then
+        sed -i '1i #include <algorithm>' "$file"
+        break
+     fi
+     
 # # IN PROCESS
