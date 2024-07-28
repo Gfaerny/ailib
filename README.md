@@ -19,15 +19,18 @@ ailib example.cpp
 
 # install for windows
 
-for now you can clone it in you directory and use
+  we  use scoop to install ailib in windows
+  so if you havent scoop use this commands for install scoop
+  ```bash
+  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+  iwr -useb https://get.scoop.sh | iex
+  ```
+  then use this command for installing ailib using scoop
 
-that mean you need git 
 ```
-git clone https://github.com/Gfaerny/ailib.git
+scoop install https://raw.githubusercontent.com/Gfaerny/ailib/main/ailib.json
 ```
-```
-./m.ps1 example.cpp
-```
+
 
 # install in Linux 
 you can use installer
