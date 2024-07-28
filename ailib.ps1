@@ -4,6 +4,8 @@
 # # for cpp
 $file = $args[0]
 
+# # for make it first -Append $false
+
 # For iostream lib
 for ($i = 1; $i -le 1; $i++) {
     if (Get-Content -Path $file -ErrorAction SilentlyContinue | Select-String -Pattern "std::cout") {
