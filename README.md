@@ -17,7 +17,7 @@ m.sh example.cpp
 
 # How to install
 
-- windows
+# install for windows
 
 for now you can clone it in you directory and use
 
@@ -29,7 +29,7 @@ git clone https://github.com/Gfaerny/ailib.git
 ./m.ps1 example.cpp
 ```
 
-- Linux 
+# install in Linux 
 you can use installer
 
 ```
@@ -40,6 +40,11 @@ chmod +x installforlinux.sh
 ```
 ```
 ./installerlinux.sh
+```
+- then use like
+``` bash
+ailib example.cc
+ailib example.cpp
 ```
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
