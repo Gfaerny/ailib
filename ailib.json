@@ -2,5 +2,5 @@
     "version": "1.0",
     "url": "https://github.com/Gfaerny/ailib/archive/master.zip",
     "extract_dir": "ailib-main",
-    "bin": "ailib.ps1"
+    "bin": "ailib.exe"
 }
