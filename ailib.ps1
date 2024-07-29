@@ -2,6 +2,8 @@
 # # AILIB shell script App that provide standard library
 # # No license
 # # for cpp
+# # Just for concept
+
 $file = $args[0]
 
 # # for make it first -Append $false
