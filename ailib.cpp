@@ -1,5 +1,5 @@
 /// Gfaerny
-/// in process
+///    
     
     #include <fstream>
     #include <iostream>
@@ -30,6 +30,19 @@
             if (line.find("std::cin") != std::string::npos) {isiostream = true;break;}
             if (line.find("std::wcin") != std::string::npos) {isiostream = true;break;}
             if (line.find("std::cout") != std::string::npos) {isiostream = true;break;}
+            if (line.find("std::cerr") != std::string::npos) {isiostream = true;break;}
+            if (line.find("std::clog") != std::string::npos) {isiostream = true;break;}
+        
+///         VECTOR  STAND LIB        
+///         |||||||||||||||||
+        
+            if (line.find("std::vector") != std::string::npos) {isvector = true;break;}       
+            if (line.find("std::hash") != std::string::npos) {isvector = true;break;} 
+            if (line.find("std::cbegin") != std::string::npos) {isvector = true;break;} 
+            if (line.find("std::begin") != std::string::npos) {isvector = true;break;} 
+            if (line.find("std::end") != std::string::npos) {isvector = true;break;} 
+            if (line.find("std::cend") != std::string::npos) {isvector = true;break;} 
+        
         }
        
        
