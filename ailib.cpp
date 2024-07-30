@@ -54,5 +54,44 @@
         std::cerr << " IF ANY BUG IS THERE  USE MY GITHUB [ https://github.com/Gfaerny/ ] FOR CONTACT" << std::endl;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/// then we end with std:: 's hint we going to logic that sa
+/// y if the (for example) vector is after this symbol ; , > and ... add the depend library
     return 0;
 }}
