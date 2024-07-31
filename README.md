@@ -17,27 +17,29 @@ ailib example.cpp
 
 # How to install
 
-# install for windows
-
+# install for windows 
+- First Install Scoop
   we  use scoop to install ailib in windows
   so if you havent scoop use this commands for install scoop
   ```bash
   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
   iwr -useb https://get.scoop.sh | iex
   ```
-  then use this command for installing ailib using scoop
-
+  - Then install ailib from scoop 
+use this command for installing ailib for windows with SCOOP
+  
 ```
 scoop install https://raw.githubusercontent.com/Gfaerny/ailib/main/ailib.json
 ```
 
 
 # install in Linux 
-you can use installer
-
+- First we clone(download) this rep
+  you should have (git) package for this command
 ```
 git clone https://github.com/Gfaerny/ailib.git
 ```
+- Then Rus installer of ailib
 ```
 chmod +x installforlinux.sh
 ```
