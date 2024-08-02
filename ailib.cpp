@@ -5,6 +5,9 @@
     #include <iostream>
     #include <string>
 
+    #define CHECK_CLOG(line, var) (line.find(#var) != std::string::npos)
+
+
     int main(int argc , char* argv[]) 
 {
     std::string tfile = argv[0];
